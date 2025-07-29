@@ -1,0 +1,2 @@
+turtle_egg_hatch_time:5
+hunger_decay:Hp_player*(3*(3+3))
