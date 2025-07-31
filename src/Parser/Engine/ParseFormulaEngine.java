@@ -63,7 +63,7 @@ public class ParseFormulaEngine {
         if(operationSymbol.size() == 0){
                 result = values.get(0);
         }else {
-                result = engineCalculation(values.getFirst(), values.get(1), operationSymbol.getFirst());
+                result = engineCalculation(values.get(0), values.get(1), operationSymbol.get(0));
 
             for (int i = 1; i < operationSymbol.size(); i++) {
                 result = engineCalculation(result, values.get(i + 1), operationSymbol.get(i));
